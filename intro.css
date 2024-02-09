@@ -20,6 +20,9 @@ body{
     height: 100%;
     position: relative;
 }
+#hello {
+    font-size: 12px;
+}
 .box-slider_img1{
     width: 100%;
     height: 100%;
