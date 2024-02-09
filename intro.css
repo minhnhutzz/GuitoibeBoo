@@ -1758,18 +1758,18 @@ body{
 }
 .box-content .right .content .title{
     font-family: 'Dancing Script', cursive;
-    width: 150px;
-    height: 40px;
+    width: 175px;
+    height: 90px;
     display: flex;
     justify-content: center;
     margin-top: 10px;
     overflow: hidden;
 }
 .box-content .right .content .title h1{
-    margin-top: -40px;
+    margin-top: -90px;
     transition: 0.5s;
 }
-.slider3:hover .title h1{
+.slider3 .title h1{
     animation: title 2s forwards;
 }
 @keyframes title{
@@ -1788,7 +1788,7 @@ body{
     opacity: 0;
     transition: 1s;
 }
-.slider3:hover .content p{
+.slider3 .content p{
     animation: bodyContent 2s 1s forwards;
 }
 @keyframes bodyContent{
@@ -1809,9 +1809,9 @@ body{
     font-size: 18px;
     font-family: 'Dancing Script', cursive;
     padding: 20px 0px 0px 20px;
-    margin-top: -50px;
+    margin-top: -70px;
 }
-.slider3:hover .content h3{
+.slider3 .content h3{
     animation: fixedContent 2s 2s forwards;
 }
 @keyframes fixedContent{
@@ -2045,7 +2045,7 @@ body{
     font-size: 15px;
 }
 .text-content h1{
-    font-size: 19px;
+    font-size: 9px;
 }
 .text-content span{
     font-size: 25px;
@@ -2088,7 +2088,7 @@ body{
     font-size: 15px;
 }
 .box-content .right .content .fixedContent{
-    width: 200px;
+    width: 200x;
     margin-left: 50px;
 }
 .box-content .right .content .fixedContent h3{
